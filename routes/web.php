@@ -4,6 +4,7 @@ use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request as HttpRequest;
 
+//siuuuuu
 Route::get('/', function () {
     return view('welcome', ['nombreEjemplo' => 'Juan']);
 })->name('nameUno'); // NOMBRE DE LA RUTA
